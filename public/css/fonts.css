@@ -1,0 +1,64 @@
+/* Condensed */
+
+@font-face {
+      font-family: LamaSans-RegularCondensed;
+      src: url('../fonts/LamaSans/TTF/Condensed/LamaSans-RegularCondensed.ttf');
+} 
+
+@font-face {
+      font-family: LamaSans-BoldCondensed;
+      src: url('../fonts/LamaSans/TTF/Condensed/LamaSans-BoldCondensed.ttf');
+}
+@font-face {
+      font-family: LamaSans-LightCondensed;
+      src: url('../fonts/LamaSans/TTF/Condensed/LamaSans-LightCondensed.ttf');
+}
+@font-face {
+      font-family: LamaSans-SemiBoldCondensed;
+      src: url('../fonts/LamaSans/TTF/Condensed/LamaSans-SemiBoldCondensed.ttf');
+}
+
+/* Expanded */
+
+@font-face {
+      font-family: LamaSans-RegularExpanded;
+      src: url('../fonts/LamaSans/TTF/Expanded/LamaSans-RegularExpanded.ttf');
+}
+
+@font-face {
+      font-family: LamaSans-BoldExpanded;
+      src: url('../fonts/LamaSans/TTF/Expanded/LamaSans-BoldExpanded.ttf');
+}
+
+@font-face {
+      font-family: LamaSans-LightExpanded;
+      src: url('../fonts/LamaSans/TTF/Expanded/LamaSans-LightExpanded.ttf');
+}
+
+@font-face {
+      font-family: LamaSans-SemiBoldExpanded;
+      src: url('../fonts/LamaSans/TTF/Expanded/LamaSans-SemiBoldExpanded.ttf');
+}
+
+
+/* Standard */
+
+@font-face {
+      font-family: LamaSans-Regular;
+      src: url('../fonts/LamaSans/TTF/Standard/LamaSans-Regular.ttf');
+}
+
+@font-face {
+      font-family: LamaSans-Bold;
+      src: url('../fonts/LamaSans/TTF/Standard/LamaSans-Bold.ttf');
+}
+
+@font-face {
+      font-family: LamaSans-Light;
+      src: url('../fonts/LamaSans/TTF/Standard/LamaSans-Light.ttf');
+}
+
+@font-face {
+      font-family: LamaSans-SemiBold;
+      src: url('../fonts/LamaSans/TTF/Standard/LamaSans-SemiBold.ttf');
+}

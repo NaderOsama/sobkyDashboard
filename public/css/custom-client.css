@@ -1,0 +1,71 @@
+    .sidebar .nav-item .nav-link i {
+        font-size: 1.85rem;
+        margin-right: 0.25rem;
+    }
+
+    .custom-card-height {
+        height: 150px; /* Adjust the height as needed */
+    }
+
+    .custom-font-size {
+        font-size: 1.5rem; /* Adjust the font size as needed */
+    }
+
+.custom-card {
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.5s, color 0.5s;
+    cursor: pointer;
+    text-decoration: none; /* Remove default link underline */
+    color: inherit; /* Inherit text color */
+
+
+}
+
+
+.custom-card::before {
+    content: '';
+    display: block;
+    border-radius: 0.35rem;
+    border-top-left-radius: 0;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+    border-bottom-left-radius: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-100%, 0) rotate(30deg);
+    transform-origin: top left;
+    transition: 0.5s transform ease-out;
+    will-change: transform;
+        text-decoration: none; /* Remove default link underline */
+
+
+
+}
+
+.custom-card:hover::before {
+    transform: translate(0, 0);
+
+}
+
+.custom-card:hover .custom-text, .custom-card:hover .text-gray-300  {
+    color: white !important;
+
+}
+.custom-card .custom-text {
+    transition: color 0.5s;
+}
+
+
+
+/* ------ */
+.custom-card-1::before {
+    background-color:#4e73df; /* Use Bootstrap's primary color */
+
+}
+
+.custom-card-2::before {
+    background-color:#1cc88a ; /* Use Bootstrap's primary color */
+}
